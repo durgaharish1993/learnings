@@ -3,6 +3,10 @@ import streamlit as st
 
 master_tabs = st.tabs(["Fine Tuning","Communication Primitives"])
 
+
+st.set_page_config(layout="wide")
+
+
 with master_tabs[0]:
     st.markdown("""
 
